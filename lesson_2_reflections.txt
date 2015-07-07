@@ -46,3 +46,7 @@ because the new commit will have two parents.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	automatic merging is much faster and simpler for the user but it can create
+conflicts and unintended consequences.  manually allows you to do exactly what
+you want and ensure the merge is done properly, but it takes much longer
