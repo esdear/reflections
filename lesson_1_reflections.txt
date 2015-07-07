@@ -1,0 +1,50 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    it allows you to see what has changed in the code which led to any new bug
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    quickly accessing back versions where there were no known or future bugs for
+comparison will allow much easier resolution of problems
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    manual allows you complete control, knowledge of the specific versions, and
+it allows committing at logical points, but requires you to remember to do it and
+take the time.  Auto will take care of it for you so you do not forget but may
+not do it at the best times/create too many versions, your code may not compile,
+and it may also can save changes you dont want
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    because in some cases multiple files are interrelated - as in a program may
+run off of several different files, which all or some of may be changed from
+version to version and it is easier to track that together than have to manually
+find commits made to different files at the same time
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log will give you a list of every single commit made in the repository
+with comments added for each one.  then git diff allows you to see the specific
+changes made by comparing two files
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    knowing that you can revert will allow you to make any changes you want
+with peace of mind
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    for doing everything and getting used to terminal commands
