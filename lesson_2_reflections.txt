@@ -38,5 +38,11 @@ reachability in an intuitive manner
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	the result is a commit that has the tips of both branches as parents.  it
+combines the code added individually by each branch as far back as their common
+parent.  we show it on a diagram this way to see the flow of the branches and
+because the new commit will have two parents.
+
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
