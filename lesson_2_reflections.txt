@@ -31,6 +31,10 @@ need a working version while developing a new component
 
 How do the diagrams help you visualize the branch structure?
 
+	as branches are inherently visual, the diagram helps show relation and 
+reachability in an intuitive manner
+
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
